@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab1.1_Solution/Lab1.1_Solution.iml" filepath="$PROJECT_DIR$/Lab1.1_Solution/Lab1.1_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.1_Starter/Lab1.1_Starter.iml" filepath="$PROJECT_DIR$/Lab1.1_Starter/Lab1.1_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.2_Solution/Lab1.2_Solution.iml" filepath="$PROJECT_DIR$/Lab1.2_Solution/Lab1.2_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.2_Starter/Lab1.2_Starter.iml" filepath="$PROJECT_DIR$/Lab1.2_Starter/Lab1.2_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.3_Solution/Lab1.3_Solution.iml" filepath="$PROJECT_DIR$/Lab1.3_Solution/Lab1.3_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.3_Starter/Lab1.3_Starter.iml" filepath="$PROJECT_DIR$/Lab1.3_Starter/Lab1.3_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.4_Solution/Lab1.4_Solution.iml" filepath="$PROJECT_DIR$/Lab1.4_Solution/Lab1.4_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.4_Starter/Lab1.4_Starter.iml" filepath="$PROJECT_DIR$/Lab1.4_Starter/Lab1.4_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.5_Solution/Lab1.5_Solution.iml" filepath="$PROJECT_DIR$/Lab1.5_Solution/Lab1.5_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1.5_Starter/Lab1.5_Starter.iml" filepath="$PROJECT_DIR$/Lab1.5_Starter/Lab1.5_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.1_Solution/Lab2.1_Solution.iml" filepath="$PROJECT_DIR$/Lab2.1_Solution/Lab2.1_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.1_Starter/Lab2.1_Starter.iml" filepath="$PROJECT_DIR$/Lab2.1_Starter/Lab2.1_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.2_Solution/Lab2.2_Solution.iml" filepath="$PROJECT_DIR$/Lab2.2_Solution/Lab2.2_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.2_Starter/Lab2.2_Starter.iml" filepath="$PROJECT_DIR$/Lab2.2_Starter/Lab2.2_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.3a_Solution/Lab2.3a_Solution.iml" filepath="$PROJECT_DIR$/Lab2.3a_Solution/Lab2.3a_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.3a_Starter/Lab2.3a_Starter.iml" filepath="$PROJECT_DIR$/Lab2.3a_Starter/Lab2.3a_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.3b_Solution/Lab2.3b_Solution.iml" filepath="$PROJECT_DIR$/Lab2.3b_Solution/Lab2.3b_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.3b_Starter/Lab2.3b_Starter.iml" filepath="$PROJECT_DIR$/Lab2.3b_Starter/Lab2.3b_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.4_Solution/Lab2.4_Solution.iml" filepath="$PROJECT_DIR$/Lab2.4_Solution/Lab2.4_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.4_Starter/Lab2.4_Starter.iml" filepath="$PROJECT_DIR$/Lab2.4_Starter/Lab2.4_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.5_Solution/Lab2.5_Solution.iml" filepath="$PROJECT_DIR$/Lab2.5_Solution/Lab2.5_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.5_Starter/Lab2.5_Starter.iml" filepath="$PROJECT_DIR$/Lab2.5_Starter/Lab2.5_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.6_Queue_Solution/Lab2.6_Queue_Solution.iml" filepath="$PROJECT_DIR$/Lab2.6_Queue_Solution/Lab2.6_Queue_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.6_Queue_Starter/Lab2.6_Queue_Starter.iml" filepath="$PROJECT_DIR$/Lab2.6_Queue_Starter/Lab2.6_Queue_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.6_Stack_Solution/Lab2.6_Stack_Solution.iml" filepath="$PROJECT_DIR$/Lab2.6_Stack_Solution/Lab2.6_Stack_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.6_Stack_Starter/Lab2.6_Stack_Starter.iml" filepath="$PROJECT_DIR$/Lab2.6_Stack_Starter/Lab2.6_Stack_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.7_Solution/Lab2.7_Solution.iml" filepath="$PROJECT_DIR$/Lab2.7_Solution/Lab2.7_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.7_Starter/Lab2.7_Starter.iml" filepath="$PROJECT_DIR$/Lab2.7_Starter/Lab2.7_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2.8_Starter/Lab2.8_Starter.iml" filepath="$PROJECT_DIR$/Lab2.8_Starter/Lab2.8_Starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Warmup_Solution/Warmup_Solution.iml" filepath="$PROJECT_DIR$/Warmup_Solution/Warmup_Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Warmup_Starter/Warmup_Starter.iml" filepath="$PROJECT_DIR$/Warmup_Starter/Warmup_Starter.iml" />
+    </modules>
+  </component>
+</project>
