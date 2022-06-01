@@ -32,7 +32,9 @@ public class BinaryConvert {
         int result = 0;
         for (int i = octal.length()-1; i>=0; i-- ){
             System.out.println("i is " + i);
+
             int num = Integer.parseInt(Character.toString(octal.charAt(i)));
+
             result += num*conversion;
             conversion *= 8;
         }

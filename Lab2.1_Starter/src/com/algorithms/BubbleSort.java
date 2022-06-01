@@ -20,6 +20,17 @@ bubbleSort(array)
 */
     public static void sort(int[] numbers){
     // implement pseudo-code above
+        int n = numbers.length;
+        for(int i = 1; i < n; i++) {
+            for(int j = 0; j <n-1; j++){
+                if (numbers[j] > numbers [j+1]) {
+                    int num = numbers[j];
+                    numbers[j] = numbers[j +1];
+                    numbers[j+1] = num;
+                }
+            }
+        }
+
     }
     
 }

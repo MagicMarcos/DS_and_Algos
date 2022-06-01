@@ -24,8 +24,8 @@ public class IntersectionTest {
 
     @Test
     public void testFullIntersectionFullOverlapPositive() {
-        int[] numbers1 = new int[]{66, 24, 75, 22, 12, 87};
-        int[] numbers2 = new int[]{66, 24, 75, 22, 12, 87};
+        int[] numbers1 = new int[]{66, 24, 75, 22, 12, 87,66,66};
+        int[] numbers2 = new int[]{66, 24, 75, 22, 12, 87,66,66};
 
         List<Integer> result = intersection.intersectionFast(numbers1, numbers2);
 

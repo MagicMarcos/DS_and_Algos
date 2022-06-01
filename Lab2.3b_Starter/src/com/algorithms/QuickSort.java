@@ -69,7 +69,7 @@ public class QuickSort {
     }
 
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
 //        int[] numbers = new int[]{2, 5, 7, 2, 4, 2, 8, 1, 0, 9, 3, 6};
         int[] numbers = new int[]{4, 5, 33, 17, 3, 21, 1, 16};
