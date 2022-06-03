@@ -43,24 +43,21 @@ public class QuickSort {
 
         // get the value at the pivot (at array index "end"
         int pivot = numbers[end];
-
         // start a variable called "top" just below the start
         // "top" will represent the top of the lower partition
         int top = start -1 ;
+
         // iterate from start to end...each time:
         for(int i = start; i < end; i++) {
             //  1. if the current array element is less than the pivot
             if(numbers[i] < pivot) {
                 top ++;                                   // a. increment "top" by 1
-
                 swap(numbers, top, i);  // b. swap the two numbers at the "top" position and the current array index
-
             }
         }
 
         // once the loop is over, swap the values at index "top" with the last iteration position
         // this will move the pivot at the end of the array to the top position
-
         swap(numbers,top+1,end);
 
         // finally, return the top value + 1

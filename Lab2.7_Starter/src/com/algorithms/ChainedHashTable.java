@@ -17,9 +17,11 @@ public class ChainedHashTable<K, V> implements HashTable<K, V> {
         // passing to it the key argument and the length of the array
         // because this is a remainder hash, this method will return a number
         // between 0 and the length of the array
-
+        int hashValue = hashProvider.hashKey(key, array.length);
         // 2. then use this value to find the appropriate element of the array
         // and add a new Pair (key, value) to the beginning of the LinkedList
+        Pair<K,V> kVPair = new Pair<>(key, value);
+        array[hashValue].addFirst(kVPair);
     }
 
     public V get(K key) {
@@ -27,13 +29,21 @@ public class ChainedHashTable<K, V> implements HashTable<K, V> {
         // passing to it the key argument and the length of the array
         // because this is a remainder hash, this method will return a number
         // between 0 and the length of the array
+        int hashValue = hashProvider.hashKey(key, array.length);
 
         // 2. get a linked list of Pair<K, V> using the hashValue as the index off the array
-
         // we are using the java.util.LinkedList
+        LinkedList<Pair<K, V>> kVList = array[hashValue];
+
         // 3. Next, get each Pair<K, V> from the list
         // get each Pair
+        for(Pair<K,V> pair : kVList ) {
+            if(pair.getKey().equals(key)) {
+                return pair.getValue();
 
+            }
+        }
+        return null;
             // now get the key
             // 4. get the key from the retrieved Pair\
             // 5. if the retrieved key is equal to the key argument passed in
@@ -48,7 +58,7 @@ public class ChainedHashTable<K, V> implements HashTable<K, V> {
 //                .findFirst()
 //                .map(Pair::getValue)
 //                .orElse(null);
-        return null;
+//        return null;
     }
 
     public void remove(K key) {

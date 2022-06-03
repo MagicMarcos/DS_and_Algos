@@ -1,5 +1,7 @@
 package com.algorithms;
 
+import java.lang.reflect.Array;
+
 public class MergeSort {
 
     public void mergeSort(int[] array) {
@@ -15,7 +17,14 @@ public class MergeSort {
 //           mergeSort(array, start, middle)
 //           mergeSort(array, middle+1, end)
 //           merge(array, start, middle, end)
-
+        int middle;
+        mergeSort(array, start, end);
+        if(start < end) {
+            middle = (end-start)/2 + start;
+            mergeSort(array, start, middle);
+            mergeSort(array, middle+1, end);
+            merge(array, start, middle, end);
+        }
     }
 
     private void merge(int[] array, int start, int middle, int end) {
@@ -32,6 +41,20 @@ public class MergeSort {
 //                  arrayTemp[k] = array[j]
 //                  j++
 //        copyArray(arrayTemp, array, start)
+        merge(array, start, middle, end);
+        int i = start;
+        int j = middle +1;
+        Array arrayTemp = initArrayOfSize(end - start + 1);
+        for (int k = 0; k < arrayTemp.length; k++) {
+            if (i <= middle && (j > end || array[i] <= array[j])){
+                arrayTemp[k] = array[i];
+                i++;
+            }
+            else {
+                arrayTemp[k] = array[j];
+                j++;
+            }
+        }
 
     }
 
